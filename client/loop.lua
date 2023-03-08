@@ -51,12 +51,12 @@ CreateThread(
                         false,
                         true,
                         2,
+                        true,
                         nil,
                         nil,
                         false)
                 end
             end
-            Wait(50)
         end
 
     end
