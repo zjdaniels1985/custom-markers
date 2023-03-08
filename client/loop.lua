@@ -1,7 +1,7 @@
-Citizen.CreateThread(
+CreateThread(
     function()
         while true do
-            Citizen.Wait(0)
+            Wait(0)
             for i=1, #locations, 1 do
                 loc = locations[i]
                 DrawMarker(
@@ -51,12 +51,12 @@ Citizen.CreateThread(
                         false,
                         true,
                         2,
+                        true,
                         nil,
                         nil,
                         false)
                 end
             end
-            Citizen.Wait(50)
         end
 
     end
